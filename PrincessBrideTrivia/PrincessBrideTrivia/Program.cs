@@ -51,7 +51,7 @@ public class Program
 
     public static void DisplayQuestion(Question question)
     {
-        Console.WriteLine("Question: " + question.Text);
+        Console.WriteLine("Question: " + question.Text);  // Exemption thrown here question.txt is null & Test push statement
         for (int i = 0; i < question.Answers.Length; i++)
         {
             Console.WriteLine((i + 1) + ": " + question.Answers[i]);
